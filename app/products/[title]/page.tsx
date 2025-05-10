@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 }
 
 const ProductDetailedPage = async ({ params }: { params: { title: string } }) => {
-  const { title } = await params;
+  const { title } = params;
 
   if (!title) {
     return (
