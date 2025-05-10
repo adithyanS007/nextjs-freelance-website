@@ -18,7 +18,7 @@ export async function generateStaticParams() {
   }));
 }
 
-const ProductDetailedPage = async ({ params }: { params: { title: string } }) => {
+const ProductDetailedPage =  ({ params }: { params: { title: string } }) => {
   const { title } = params;
 
   if (!title) {
