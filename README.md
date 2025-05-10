@@ -5,7 +5,6 @@ A modern, responsive website built with **Next.js** for a water purification bus
 ---
 ## 🔗 Live Preview
 👉 [Live App](https://nextjs-freelance-website.vercel.app/)
----
 
 ---
 
