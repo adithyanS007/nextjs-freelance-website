@@ -2,24 +2,34 @@ import ProductDetail from "@/components/Products/ProductDetail";
 import Testimonials from "@/components/Home/Testimonials/Testimonials";
 import { ProductsData } from "@/constants/ProductsData";
 import SEO from "@/components/Seo/Seo";
-import { Metadata } from 'next';
+import { Metadata } from "next";
 
+// Metadata for SEO
 export const metadata: Metadata = {
-  title: "Product"
+  title: "Product",
 };
 
+// Helper function to slugify product titles
 const slugify = (title: string): string => {
   return title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 };
 
-export async function generateStaticParams() {
+// Generate static paths for products
+export function generateStaticParams() {
   return ProductsData.map((product) => ({
     title: slugify(product.title),
   }));
 }
 
-const ProductDetailedPage =  ({ params }: { params: { title: string } }) => {
-  const { title } = params;
+// Explicit type definition for params
+type ProductPageProps = {
+  params: Promise<{ title: string }>;
+};
+
+// Updated function with awaited params resolution
+const ProductDetailedPage = async ({ params }: ProductPageProps) => {
+  const resolvedParams = await params;
+  const { title } = resolvedParams;
 
   if (!title) {
     return (
@@ -55,7 +65,7 @@ const ProductDetailedPage =  ({ params }: { params: { title: string } }) => {
         title={`${product.title} - Premium Water Purifier`}
         description={`Discover the features and specifications of ${product.title}. Perfect for clean and healthy water.`}
         url={`https://companydomain.in/products/${title}`}
-        image="https://companydomain.in/assets/og-image.jpg" // Change if using specific image per product
+        image="https://companydomain.in/assets/og-image.jpg"
       />
       <ProductDetail product={product} />
       <Testimonials />
