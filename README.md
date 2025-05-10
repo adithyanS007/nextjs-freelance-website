@@ -3,6 +3,11 @@
 A modern, responsive website built with **Next.js** for a water purification business. It showcases the company’s services with animations, image carousels, and dynamic counters, providing a high-performance user experience.
 
 ---
+## 🔗 Live Preview
+👉 **[Live App]**(https://nextjs-freelance-website.vercel.app/)
+---
+
+---
 
 ## 🚀 Tech Stack
 
@@ -27,7 +32,7 @@ npm install react-icons tailwindcss framer-motion react-countup react-intersecti
 - 1. Clone the repo
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/adithyanS007/nextjs-freelance-website.git
 cd your-repo-name
 ```
 
@@ -57,7 +62,7 @@ npm run dev
 
 - 📷 Open Graph image preview setup (for social sharing)
 
-- ☁️ Deployed with Vercel
+- ☁️ Deployed with Vercel (for demo)
 
 ## 📁 Folder Structure
 
@@ -85,10 +90,12 @@ npm run dev
   ...
 ```
 
+---
+
 ## 🧠 Author
-** Adhi
+- Adhi
 - MERN Stack Developer
 
 ## 📜 License
 
-**This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
