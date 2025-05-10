@@ -13,7 +13,7 @@ const ProductsSlider = () => {
         infinite: true,
         speed: 4000,
         slidesToScroll: 4,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 0,
         cssEase: "linear",
         pauseOnHover: true,
