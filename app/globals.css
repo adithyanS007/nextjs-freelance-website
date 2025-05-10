@@ -39,9 +39,4 @@ body {
   .text-secondary {
     color: #0063ff;
   }
-
-  .bg-hero-image {
-    background-image: url('/images/bgimage.jpg');
-  }
-
 }

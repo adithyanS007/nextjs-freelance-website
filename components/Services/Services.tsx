@@ -63,7 +63,7 @@ const Services = () => {
             </div>
 
             {/* All Services */}
-            <div className="grid grid-cols gap-10 mt-10">
+            <div className="grid grid-cols-1 gap-10 mt-10">
                 {servicesData.map((service, index) => (
                     <motion.div
                         variants={SlideRight(0.3)}

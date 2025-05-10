@@ -36,9 +36,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <div className="min-h-screen overflow-x-hidden relative">   
         <Navbar />
         {children}
         <Footer />
+        </div>
       </body>
     </html>
   );
