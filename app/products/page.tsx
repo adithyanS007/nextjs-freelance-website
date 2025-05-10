@@ -13,8 +13,8 @@ const ProductsPage = () => {
       <SEO
         title="Our Products - Premium Water Purifiers by Companyname"
         description="Explore our range of premium water purifiers designed for homes and offices. Discover top-notch quality and innovation."
-        url="https://companydomain.in/products"
-        canonical="https://companydomain.in/products"
+        url="https://nextjs-freelance-website.vercel.app/products"
+        canonical="https://nextjs-freelance-website.vercel.app/products"
       />
       <ProductList />
       <Testimonials />

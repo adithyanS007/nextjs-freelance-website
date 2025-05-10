@@ -13,8 +13,8 @@ const ContactPage = () => {
       <SEO
         title="Contact Us - Companyname | Reach Out for Clean Water Solutions"
         description="Contact Companyname for all your water purification needs. Our experts are here to help you find the perfect solution."
-        url="https://companydomain.in/contact"
-        canonical="https://companydomain.in/contact"
+        url="https://nextjs-freelance-website.vercel.app/contact"
+        canonical="https://nextjs-freelance-website.vercel.app/contact"
       />
       <Contact />
     </>

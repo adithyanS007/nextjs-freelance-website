@@ -64,8 +64,8 @@ const ProductDetailedPage = async ({ params }: ProductPageProps) => {
       <SEO
         title={`${product.title} - Premium Water Purifier`}
         description={`Discover the features and specifications of ${product.title}. Perfect for clean and healthy water.`}
-        url={`https://companydomain.in/products/${title}`}
-        image="https://companydomain.in/assets/og-image.jpg"
+        url={`https://nextjs-freelance-website.vercel.app/${title}`}
+        image="https://nextjs-freelance-website.vercel.app/images/og-image.jpg"
       />
       <ProductDetail product={product} />
       <Testimonials />

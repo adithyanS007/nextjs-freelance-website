@@ -14,8 +14,8 @@ const SEO = ({
   title,
   description,
   keywords = "water purifier, water filter, clean water, RO systems, Companyname, Best water purifier",
-  url = "https://companyname.in",
-  image = "https://companyname.in/images/og-image.jpg",
+  url = "https://nextjs-freelance-website.vercel.app/",
+  image = "https://nextjs-freelance-website.vercel.app/images/og-image.jpg",
   canonical,
 }: SEOProps) => {
   return (

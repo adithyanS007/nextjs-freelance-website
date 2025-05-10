@@ -13,8 +13,8 @@ const AboutPage = () => {
       <SEO
         title="About Us - Companyname | Trusted Water Purification Experts"
         description="Learn about Companyname, the global leader in water filtering and purifying technology. Discover our mission, values, and expertise."
-        url="https://companydomain.in/about"
-        canonical="https://companydomain.in/about"
+        url="https://nextjs-freelance-website.vercel.app/about"
+        canonical="https://nextjs-freelance-website.vercel.app/about"
       />
       <About />
     </>

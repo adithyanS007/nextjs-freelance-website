@@ -15,8 +15,8 @@ const ServicesPage = () => {
       <SEO
         title="Services - Companyname | Comprehensive Water Purification Support"
         description="Discover the wide range of services offered by Companyname including installation, maintenance, and customer support for all water purification systems."
-        url="https://companydomain.in/services"
-        canonical="https://companydomain.in/services"
+        url="https://nextjs-freelance-website.vercel.app/services"
+        canonical="https://nextjs-freelance-website.vercel.app/services"
       />
       <Services />
       <ProductsSlider />

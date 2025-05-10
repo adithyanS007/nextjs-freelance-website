@@ -15,8 +15,8 @@ const TestimonialPage = () => {
       <SEO
         title="Testimonials - Companyname | Real Reviews from Happy Customers"
         description="Read what our customers have to say about Companyname’s innovative and reliable water purification systems."
-        url="https://companydomain.in/testimonials"
-        canonical="https://companydomain.in/testimonials"
+        url="https://nextjs-freelance-website.vercel.app/testimonials"
+        canonical="https://nextjs-freelance-website.vercel.app/testimonials"
       />
       <TestimonialsPage />
       <ProductsSlider />

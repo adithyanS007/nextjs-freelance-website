@@ -6,12 +6,12 @@ import ProductsSlider from '../Home/ProductsSlider/ProductsSlider'
 
 const About = () => {
   return (
-    <div className='overflow-x-hidden'>
+    <>
       <CompanyOverview />
       <Testimonials />
       <ContactUs />
       <ProductsSlider />
-    </div>
+    </>
   )
 }
 
