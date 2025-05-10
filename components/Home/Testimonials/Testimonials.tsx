@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import { TestimonialItem, TestimonialsData } from "@/constants/TestimonialData";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaQuoteLeft } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { SlideRight } from "@/utility/Animation";
 import Link from "next/link";

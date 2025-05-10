@@ -7,7 +7,6 @@ import { NavbarMenu } from "@/constants/ConstData";
 import ResponsiveMenu from "./ResponsiveMenu";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
